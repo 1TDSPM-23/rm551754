@@ -10,3 +10,9 @@
     align-items: center;
     background-color: blueviolet;
 }
+
+.cabecalho img{
+    width: 30%;
+    max-width: 30%;
+    display: block;
+}
