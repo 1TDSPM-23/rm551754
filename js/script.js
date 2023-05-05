@@ -48,11 +48,32 @@ console.log("Olá Mundo");
         //const PI = 3.14;
 
 
-        var nome = "Enzo";
+        let nome = "Enzo";
 
         if(nome !== ""){
-            var nome = "Edson";
+            let nome = "Edson";
 
         }
         
-    console.log(nome);
+       let frutas = [ "banana", "maçã", ",morango", "carambola", "acerola", "laranja"];
+       console.log(frutas);
+
+       console.table(frutas);
+
+       console.log(frutas[3])
+
+       frutas.push("caju");
+       console.log(frutas); 
+
+       frutas.unshift("melancia");
+       console.log(frutas);
+
+       frutas.pop();
+       console.log(frutas);
+
+    let indice = frutas.indexOf("carambola");
+    frutas.splice(indice,1);
+    console.log(frutas[indice]);
+
+
+
